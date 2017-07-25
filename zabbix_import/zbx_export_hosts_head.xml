@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zabbix_export>
+    <version>2.0</version>
+    <date>2017-07-07T02:15:43Z</date>
+    <groups>
+        <group>
+            <name>新一代交易系统</name>
+        </group>
+    </groups>
+    <hosts>
