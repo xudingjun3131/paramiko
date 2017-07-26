@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="E:\Python\paramiko_work" uploadOnCheckin="0af4e676-e2a5-4d4f-883a-d8179c8e5d80">
+    <serverData>
+      <paths name="E:\Python\paramiko_work">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="https://github.com/xudingjun3131/paramiko">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myUploadOnCheckinName" value="https://github.com/xudingjun3131/paramiko" />
+  </component>
+</project>
