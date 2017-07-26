@@ -1,12 +1,16 @@
 from fabric.api import *
+from fabric.context_managers import *
+from fabric.contrib.console import confirm
+
 env.user = 'root'
-env.hosts = 'localhost'
-env.password = '123456'
+env.gateway = '192.168.213.161'
+env.hosts = '192.168.213.161'
 
-@runs_once
-def local_task():
-    local("ver")
+env.passwords = {
+    'root@192.168.213.161:22': '123456',
+    'xudj@192.168.213.161:22': '123456',
+    'amber@192.168.213.161:22': '123456'
+}
 
-def remote_task():
-    with cd("/home/"):
-        run("ls -l")
+lpackpath = 'E:\Python\paramiko_work\sftp'
+rpackpath = '/tmp/'
