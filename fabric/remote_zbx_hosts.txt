@@ -1,0 +1,1 @@
+192.168.213.161;zabbix;zabbix;JYKJ
