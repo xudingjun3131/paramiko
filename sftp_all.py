@@ -34,7 +34,7 @@ def remote_dir_if(ssh, remote_dir):
 
     # 判断是否需要上传父目录
 def subdir_OR_pardir(hostip,ssh,ftp,sftp,local_dir,remote_dir):
-    if (local_dir[-1] != '\\'):
+    if (local_dir[-1] != '\\' and local_dir[-1] != '/'):
         t = upload_file_OR_dir(local_dir)
         if ( t==local_dir ):
             upload_sub(hostip,ssh,ftp,sftp,local_dir,remote_dir)
